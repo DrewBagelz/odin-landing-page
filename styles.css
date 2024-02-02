@@ -23,3 +23,51 @@ body {
     display: flex;
     gap: 24px;
 }
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.hero-left {
+    max-width: 40%;
+}
+
+.hero-header{ 
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 800;
+    border-radius: 6px;
+    border: none;
+    padding: 6px 20px;
+}
+
+.hero img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.card {
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+}
