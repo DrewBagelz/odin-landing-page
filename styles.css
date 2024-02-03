@@ -1,12 +1,12 @@
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,6 +29,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 50px;
     padding: 50px 200px;
 }
 
@@ -54,20 +55,108 @@ button {
     font-weight: 800;
     border-radius: 6px;
     border: none;
-    padding: 6px 20px;
+    padding: 6px 25px;
 }
 
 .hero img {
     width: 400px;
     height: 200px;
     object-fit: cover;
-    flex-shrink: 0;
+}
+
+.info-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 36px 0;
+    text-align: center;
+}
+
+.info-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
 }
 
 .card {
+    max-width: 150px;
+    text-align: center;
+}
+
+.card-img {
     border-color: #3882f6;
     border-style: solid;
     border-radius: 8px;
     height: 150px;
     width: 150px;
+    margin-bottom: 8px;
+}
+
+.card-text {
+    margin-bottom: 100px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 75px 200px;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0 150px;
+}
+
+.quote-attribution {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+    margin-right: 150px;
+    font-weight: bold;
+}
+
+.call {
+    padding: 50px 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.call-box {
+    background-color: #3882f6;
+    padding: 30px 70px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    max-width: 1000px;
+}
+
+.call-header { 
+    color: #f9faf8;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.call-text { 
+    color: #e5e7eb;
+    font-size: 12px;
+}
+
+.call button {
+    border-style: solid;
+    border-color: #f9faf8;
+    border-width: 2px;
+    border-radius: 6px;
+    padding: 0 25px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    font-size: 12px;
+    padding: 25px 200px;
 }
