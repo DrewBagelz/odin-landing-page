@@ -9,10 +9,11 @@ sections.
 I had a hard time with the CSS exercises from the previous lesson, 
 so I wasn't feeling too confident going into this project. 
 Fortunately, my worries were unfounded and I was able to construct
-the landing page without too much trouble. The one thing I couldn't 
-figure out was how to turn the text in the quote section to light 
-italics. I couldn't get it as thin as I wanted with the `font-weight`
-property. 
+the landing page without too much trouble. I'm sure my CSS isn't as 
+efficient as it could be, but the page looks the way I intended it 
+to. The one thing I couldn't figure out was how to turn the text in 
+the quote section to light italics. I couldn't get it as thin as I 
+wanted with the `font-weight` property. 
 
 ## Photo Credits
 Cat behind log: Malek Dridi (https://unsplash.com/@malek_dridi)
